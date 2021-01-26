@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 52px;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.titulo {
+    padding: 32px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+
+.explicacao {
+    width: 1400px;
+    margin: auto;
+}
+
+.explicacao p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.exemplo {
+    padding: 16px 0 52px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Secao MDL */
+
+#secao-mdl {
+  background-color: lightgrey;
+}
+
+pre {
+    background-color: gainsboro;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+/* Secao Badges */
+
+#secao-badges {
+  background-color: lightgrey;
+}
+
+/* Secao Buttons */
+
+#secao-buttons {
+  background-color:lightgray;
+}
+
+/* Secao Cards */
+#secao-cards {
+  background-color: lightgray;
+}
+  .demo-card-square.mdl-card {
+    width: 250px;
+    height: 460px;
+  }
+  .demo-card-square > .mdl-card__title {
+    background:
+      url('Imagens/html.PNG')
+     }
+
+/* Secao Tooltips */
+
+#secao-tooltips {
+  background-color: lightgray;
+}
